@@ -36,3 +36,67 @@
     transform: rotate(360deg);
   }
 }
+
+/* Reference from https://www.geeksforgeeks.org/how-to-change-hamburger-toggler-color-in-bootstrap/ */
+.custom-toggler.navbar-toggler {
+  border-color: white;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.bg_image {
+  background-image: url("./image/motherboard_background.png");
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.navbar-nav > li > a:focus,
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a.active {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 4px;
+  /* font-weight: bold; */
+}
+
+.navbar-nav > li {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.page {
+  min-height: 100vh;
+  padding-top: 50px;
+  display: flex;
+}
+
+/* Make object center within div */
+.center-div {
+  margin: auto;
+}
+
+
+.carousel-caption { 
+  color: black;
+  font-weight: bold;
+  bottom: 5% !important; 
+} 
+.carousel-inner .carousel-item{
+  height: 75vh;
+  width: 75vw;
+}
+.carousel-inner .carousel-item img {
+    width: 100%;
+    height: 100% !important;
+    object-fit: cover;
+}
+
+.carousel-control-next,
+.carousel-control-prev, .carousel-indicators{
+    filter: invert(100%);
+}
