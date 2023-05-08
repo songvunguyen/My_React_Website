@@ -82,7 +82,7 @@
 
 
 .carousel-caption { 
-  color: black;
+  color: black !important;
   font-weight: bold;
   bottom: 5% !important; 
 } 
