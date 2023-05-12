@@ -13,3 +13,10 @@ bower_components
 psd
 thumb
 sketch
+
+### firebase ###
+.idea
+**/.firebaserc
+
+.runtimeconfig.json
+.firebase/
