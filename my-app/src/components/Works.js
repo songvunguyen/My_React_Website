@@ -5,7 +5,7 @@ class Works extends Component {
     return (
       <div className="container-fluid page" id="work">
         <div className="table-responsive center-div">
-          <h1 style={{textAlign: 'center', marginBottom: 50}}>
+          <h1 style={{ textAlign: "center", marginBottom: 50 }}>
             List of my projects
           </h1>
           <table className="table border-dark table-bordered table-secondary">
@@ -42,7 +42,20 @@ class Works extends Component {
               </tr>
 
               <tr>
-                <td rowSpan="3">Web Dev Projects</td>
+                <td rowSpan="4">Web Dev Projects</td>
+                <td>
+                  <b>This Portfolio Website</b>
+                </td>
+                <td>
+                  <a
+                    href="https://github.com/songvunguyen/My_React_Website"
+                    target="_blank"
+                  >
+                    Github
+                  </a>
+                </td>
+              </tr>
+              <tr>
                 <td>Rock-Paper-Scissors</td>
                 <td>
                   <a
